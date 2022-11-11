@@ -33,4 +33,6 @@ Integrantes do Projeto
 [HTML]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [CSS]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
 
-Link para o nosso repositório Backend: [:link:]
+
+
+- O repositório atual é do Frontend. Acesse o link para o nosso repositório [Backend](https://hackmd.io/c/tutorials)
