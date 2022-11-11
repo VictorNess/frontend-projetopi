@@ -12,10 +12,10 @@ Integrantes do Projeto
 
 :memo: Os tópicos abaixo definem os recursos Frontend que foram utilizados nesse Projeto:
 
-* Bootstrap 5
-* HTML
-* CSS
-* JS
+* Bootstrap 5 <img align="center" alt="bootstrap" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg"/>
+* HTML <img align="center" alt="html" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"/>
+* CSS <img align="center" alt="css" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"/>
+* JavaScript <img align="center" alt="js" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"/>
 
 ### Para saber mais sobre os recursos que foram utilizados nesse projeto, leiam a documentação oficial:
 
