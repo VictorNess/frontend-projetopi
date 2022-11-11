@@ -16,6 +16,7 @@ Integrantes do Projeto
 * Bootstrap 5 <img align="center" alt="bootstrap" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg"/>
 * HTML <img align="center" alt="html" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"/>
 * CSS <img align="center" alt="css" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"/>
+* Figma <img align="center" alt="js" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"/>
 
 
 ### Para saber mais sobre os recursos que foram utilizados nesse projeto, leiam a documentação oficial:
@@ -28,12 +29,13 @@ Integrantes do Projeto
 | Bootstrap 5       | [:link:][BootStrap 5]  |
 | HTML              | [:link:][HTML]         |
 | CSS               | [:link:][CSS]          | 
+| Figma             | [:link:][Figma]        |
 
 [JavaScript]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 [Bootstrap 5]: https://getbootstrap.com/docs/5.0/getting-started/introduction/
 [HTML]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [CSS]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
-
+[Figma]: https://www.figma.com/community/tag/documentation/files
 
 
 - O repositório atual é do Frontend. Acesse o link para o nosso repositório [Backend](https://github.com/michaelPI90/backend-projetopi)
