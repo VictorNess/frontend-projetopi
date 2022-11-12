@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="Stylesheet" href="/styles/styles.css">
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2b5b3d715c.js" crossorigin="anonymous"></script>
+
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <title>Tela Despensa</title>
+</head>
+
+
+<body class="body">
+    <header>
+        <nav class="navbar navbar-light bg-light p-0">
+            <div id="containerItem" class="container-fluid">
+                <div>
+                    <img id="profile" src="./imagens/profile.png" alt="Imagem de perfil">
+                    <span id="span" class="navbar-brand mb-0 h1">Gabriel Costa</span>
+                </div>
+                <nav id="navBuscarItem" class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <form class="d-flex">
+                            <input id="inputBuscarItem" class="form-control me-2" type="search" placeholder="Buscar..."
+                                aria-label="Search">
+                            <button id="botaoBuscarItem" class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </nav>
+                <img id="logo" src="imagens/logo.png" alt="Logo da Smart Pantry">
+            </div>
+        </nav>
+    </header>
+
+    <div class="m-5">
+        <p id="tituloMenu">Menu Despensa</p>
+        <table class="table table-bordered border-primary text-center">
+            <thead>
+                <tr>
+                    <th scope="col">Registro</th>
+                    <th scope="col">Selecionar</th>
+                    <th scope="col">Quantidade</th>
+                    <th scope="col">Unidade</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Comentário</th>
+                    <th scope="col">Avaliação</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><input class="form-check-input mt-2" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                    <td>1</td>
+                    <td>Kg</td>
+                    <td>Arroz Aurora</td>
+                    <td>Mercearia</td>
+                    <td>N/D</td>
+                    <td><button class="botoesItem">Avaliar</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><input class="form-check-input mt-2" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                    <td>2</td>
+                    <td>Mg</td>
+                    <td>Acem</td>
+                    <td>Carnes</td>
+                    <td>N/D</td>
+                    <td><button class="botoesItem">Avaliar</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><input class="form-check-input mt-2" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                    <td>4</td>
+                    <td>mL</td>
+                    <td>Leite</td>
+                    <td>Laticínios</td>
+                    <td>N/D</td>
+                    <td><button class="botoesItem">Avaliar</button></td>
+                </tr>
+
+                <tr>
+                    <th scope="row">4</th>
+                    <td><input class="form-check-input mt-2" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                    <td>5</td>
+                    <td>mL</td>
+                    <td>Danone</td>
+                    <td>Laticínios</td>
+                    <td>N/D</td>
+                    <td><button class="botoesItem">Avaliar</button></td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <div class="d-flex justify-content-end">
+            
+            <button class="botoesItem">Salvar alterações</button>
+            <button class="botoesItem">Excluir Item</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container-footer d-flex justify-content-evenly ">
+            <p>Entre em contato</p>
+            <p>A Smart Pantry</p>
+            <p>Redes Sociais</p>
+            <p>Dúvidas</p>
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>
