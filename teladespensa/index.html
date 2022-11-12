@@ -51,11 +51,43 @@
                         </form>
                     </div>
                 </nav>
-                <img id="logo" src="imagens/logo.png" alt="Logo da Smart Pantry">
+                <a href="https://www.google.com.br"><img id="logo" src="imagens/logo.png"
+                        alt="Logo da Smart Pantry"></a>
             </div>
         </nav>
     </header>
+    <div>
+        <button id="botaoMenuLateral" style="margin: 40px 0 0 25px ;" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            << Abrir menu lateral</button>
 
+                <div class="offcanvas offcanvas-start MenuLateral" data-bs-scroll="true" tabindex="-1"
+                    id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title textoMenuLateral" id="offcanvasWithBothOptionsLabel">Perfil</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bodyMenuLateral">
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Alterar dados</p>
+                        </a>
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Consultar usuário</p>
+                        </a>
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Sair</p>
+                        </a>
+                    </div>
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title textoMenuLateral" id="offcanvasWithBothOptionsLabel">Despensa</h5>
+                    </div>
+                    <div class="offcanvas-body">
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Visualizar Menu</p>
+                        </a>
+                    </div>
+                </div>
+    </div>
     <div class="m-5">
         <p id="tituloMenu">Menu Despensa</p>
         <table class="table table-bordered border-primary text-center">
@@ -73,7 +105,8 @@
             <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td><input class="form-check-input mt-2" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                    <td><input class="form-check-input mt-2" type="checkbox" value=""
+                            aria-label="Checkbox for following text input"></td>
                     <td>1</td>
                     <td>Kg</td>
                     <td>Arroz Aurora</td>
@@ -83,7 +116,8 @@
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td><input class="form-check-input mt-2" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                    <td><input class="form-check-input mt-2" type="checkbox" value=""
+                            aria-label="Checkbox for following text input"></td>
                     <td>2</td>
                     <td>Mg</td>
                     <td>Acem</td>
@@ -93,7 +127,8 @@
                 </tr>
                 <tr>
                     <th scope="row">3</th>
-                    <td><input class="form-check-input mt-2" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                    <td><input class="form-check-input mt-2" type="checkbox" value=""
+                            aria-label="Checkbox for following text input"></td>
                     <td>4</td>
                     <td>mL</td>
                     <td>Leite</td>
@@ -104,7 +139,8 @@
 
                 <tr>
                     <th scope="row">4</th>
-                    <td><input class="form-check-input mt-2" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                    <td><input class="form-check-input mt-2" type="checkbox" value=""
+                            aria-label="Checkbox for following text input"></td>
                     <td>5</td>
                     <td>mL</td>
                     <td>Danone</td>
@@ -116,17 +152,24 @@
             </thead>
         </table>
         <div class="d-flex justify-content-end">
-            
             <button class="botoesItem">Salvar alterações</button>
             <button class="botoesItem">Excluir Item</button>
         </div>
     </div>
     <footer class="footer">
         <div class="container-footer d-flex justify-content-evenly ">
-            <p>Entre em contato</p>
-            <p>A Smart Pantry</p>
-            <p>Redes Sociais</p>
-            <p>Dúvidas</p>
+            <a href="https://www.google.com.br">
+                <p class="paragrafo">Entre em contato</p>
+            </a>
+            <a href="https://www.google.com.br">
+                <p class="paragrafo">A Smart Pantry</p>
+            </a>
+            <a href="https://www.google.com.br">
+                <p class="paragrafo">Redes Sociais</p>
+            </a>
+            <a href="https://www.google.com.br">
+                <p class="paragrafo">Dúvidas</p>
+            </a>
         </div>
     </footer>
 
