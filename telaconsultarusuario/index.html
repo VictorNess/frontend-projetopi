@@ -51,7 +51,8 @@
                         </form>
                     </div>
                 </nav>
-                <a href="https://www.google.com.br"><img id="logo" src="imagens/logo.png" alt="Logo da Smart Pantry"></a>
+                <a href="https://www.google.com.br"><img id="logo" src="imagens/logo.png"
+                        alt="Logo da Smart Pantry"></a>
             </div>
         </nav>
     </header>
@@ -59,90 +60,117 @@
     <div class="m-5">
 
         <button id="botaoMenuLateral" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><< Abrir menu lateral</button>
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            << Abrir menu lateral</button>
 
-        <div class="offcanvas offcanvas-start MenuLateral" data-bs-scroll="true" tabindex="-1"
-            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title textoMenuLateral" id="offcanvasWithBothOptionsLabel">Perfil</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body bodyMenuLateral">
-                <a href="https://www.google.com.br"><p class="paragrafo">Alterar dados</p></a>
-                <a href="https://www.google.com.br"><p class="paragrafo">Sair</p></a>
-            </div>
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title textoMenuLateral" id="offcanvasWithBothOptionsLabel">Despensa</h5>
-            </div>
-            <div class="offcanvas-body">
-                <a href="https://www.google.com.br"><p class="paragrafo">Visualizar Despensa</p></a>
-                <a href="https://www.google.com.br"><p class="paragrafo">Visualizar Menu</p></a>
-            </div>
-        </div>
+                <div class="offcanvas offcanvas-start MenuLateral" data-bs-scroll="true" tabindex="-1"
+                    id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title textoMenuLateral" id="offcanvasWithBothOptionsLabel">Perfil</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bodyMenuLateral">
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Alterar dados</p>
+                        </a>
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Sair</p>
+                        </a>
+                    </div>
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title textoMenuLateral" id="offcanvasWithBothOptionsLabel">Despensa</h5>
+                    </div>
+                    <div class="offcanvas-body">
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Visualizar Despensa</p>
+                        </a>
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Visualizar Menu</p>
+                        </a>
+                    </div>
+                </div>
 
-        <p id="tituloMenu">Consultar Usuário</p>
-        <table class="table table-bordered border-primary text-center">
-            <thead>
-                <tr>
-                    <th scope="col">Registro</th>
-                    <th scope="col">Selecionar</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">CPF</th>
-                    <th scope="col">E-mail</th>
-                    <th scope="col">Data Nascimento</th>
-                </tr>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td><input class="form-check-input mt-2" type="checkbox" value=""
-                            aria-label="Checkbox for following text input"></td>
-                    <td>Victor Sousa</td>
-                    <td>444.444.444-44</td>
-                    <td>vhps.22@gmail.com</td>
-                    <td>30/08/1997</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td><input class="form-check-input mt-2" type="checkbox" value=""
-                            aria-label="Checkbox for following text input"></td>
-                    <td>Michael Lima de Santos</td>
-                    <td>333.333.333-33</td>
-                    <td>michael.lima.20@gmail.com</td>
-                    <td>20/02/2000</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td><input class="form-check-input mt-2" type="checkbox" value=""
-                            aria-label="Checkbox for following text input"></td>
-                    <td>Camilly de Barros Santos</td>
-                    <td>222.222.222-22</td>
-                    <td>camis.22@gmail.com</td>
-                    <td>18/04/2002</td>
-                </tr>
+                <p id="tituloMenu">Consultar Usuário</p>
 
-                <tr>
-                    <th scope="row">4</th>
-                    <td><input class="form-check-input mt-2" type="checkbox" value=""
-                            aria-label="Checkbox for following text input"></td>
-                    <td>Diego Mizikami</td>
-                    <td>111.111.111-11</td>
-                    <td>diego.mizikami@hotmail.com</td>
-                    <td>15/05/2001</td>
-                </tr>
-            </tbody>
-            </thead>
-        </table>
-        <div class="d-flex justify-content-end">
-            <button class="botoesItem">Excluir Usuário</button>
-        </div>
+                <div class="input-group flex-nowrap w-50 m-4 ">
+                    <span class="input-group-text" id="addon-wrapping">CPF</span>
+                    <input type="text" class="form-control" placeholder="Informe o CPF..." aria-label="CPF"
+                        aria-describedby="addon-wrapping">
+                        <div>
+                            <button class="botoesItem">Consultar</button>
+                        </div>
+                </div>
+                
+                <table class="table table-bordered border-primary text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">Registro</th>
+                            <th scope="col">Selecionar</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">CPF</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Data Nascimento</th>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td><input class="form-check-input mt-2" type="checkbox" value=""
+                                    aria-label="Checkbox for following text input"></td>
+                            <td>Victor Sousa</td>
+                            <td>444.444.444-44</td>
+                            <td>vhps.22@gmail.com</td>
+                            <td>30/08/1997</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td><input class="form-check-input mt-2" type="checkbox" value=""
+                                    aria-label="Checkbox for following text input"></td>
+                            <td>Michael Lima de Santos</td>
+                            <td>333.333.333-33</td>
+                            <td>michael.lima.20@gmail.com</td>
+                            <td>20/02/2000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td><input class="form-check-input mt-2" type="checkbox" value=""
+                                    aria-label="Checkbox for following text input"></td>
+                            <td>Camilly de Barros Santos</td>
+                            <td>222.222.222-22</td>
+                            <td>camis.22@gmail.com</td>
+                            <td>18/04/2002</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">4</th>
+                            <td><input class="form-check-input mt-2" type="checkbox" value=""
+                                    aria-label="Checkbox for following text input"></td>
+                            <td>Diego Mizikami</td>
+                            <td>111.111.111-11</td>
+                            <td>diego.mizikami@hotmail.com</td>
+                            <td>15/05/2001</td>
+                        </tr>
+                    </tbody>
+                    </thead>
+                </table>
+                <div class="d-flex justify-content-end">
+                    <button class="botoesItem">Excluir Usuário</button>
+                </div>
     </div>
 
     <footer class="footer">
         <div class="container-footer d-flex justify-content-evenly">
-            <a href="https://www.google.com.br"><p class="paragrafo">Entre em contato</p></a>
-            <a href="https://www.google.com.br"><p class="paragrafo">A Smart Pantry</p></a>
-            <a href="https://www.google.com.br"><p class="paragrafo">Redes Sociais</p></a>
-            <a href="https://www.google.com.br"><p class="paragrafo">Dúvidas</p></a>
+            <a href="https://www.google.com.br">
+                <p class="paragrafo">Entre em contato</p>
+            </a>
+            <a href="https://www.google.com.br">
+                <p class="paragrafo">A Smart Pantry</p>
+            </a>
+            <a href="https://www.google.com.br">
+                <p class="paragrafo">Redes Sociais</p>
+            </a>
+            <a href="https://www.google.com.br">
+                <p class="paragrafo">Dúvidas</p>
+            </a>
         </div>
     </footer>
 </body>
