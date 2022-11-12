@@ -52,12 +52,45 @@
                         </form>
                     </div>
                 </nav>
-                <img id="logo" src="imagens/logo.png" alt="Logo da Smart Pantry">
+                <a href="https://www.google.com.br"><img id="logo" src="imagens/logo.png" alt="Logo da Smart Pantry"></a>
             </div>
         </nav>
     </header>
+        <div>
+            <button id="botaoMenuLateral" style="margin: 40px 0 0 25px;" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            << Abrir menu lateral</button>
 
-    <main>
+                <div class="offcanvas offcanvas-start MenuLateral" data-bs-scroll="true" tabindex="-1"
+                    id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title textoMenuLateral" id="offcanvasWithBothOptionsLabel">Perfil</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bodyMenuLateral">
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Alterar dados</p>
+                        </a>
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Consultar usuário</p>
+                        </a>
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Sair</p>
+                        </a>
+                    </div>
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title textoMenuLateral" id="offcanvasWithBothOptionsLabel">Despensa</h5>
+                    </div>
+                    <div class="offcanvas-body">
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Visualizar Despensa</p>
+                        </a>
+                        <a href="https://www.google.com.br">
+                            <p class="paragrafo">Visualizar Menu</p>
+                        </a>
+                    </div>
+                </div>
+        </div>
         <div class="container">
             <div>
                 <p id="titulo"> Incluir item na despensa</p>
@@ -91,13 +124,12 @@
                 <button id="botoesItem" type="button">Cancelar</button>
             </div>
         </div>
-    </main>
     <footer class="footer">
         <div class="container-footer d-flex justify-content-evenly ">
-            <p>Entre em contato</p>
-            <p>A Smart Pantry</p>
-            <p>Redes Sociais</p>
-            <p>Dúvidas</p>
+            <a href="https://www.google.com.br"><p class="paragrafo">Entre em contato</p></a>
+            <a href="https://www.google.com.br"><p class="paragrafo">A Smart Pantry</p></a>
+            <a href="https://www.google.com.br"><p class="paragrafo">Redes Sociais</p></a>
+            <a href="https://www.google.com.br"><p class="paragrafo">Dúvidas</p></a>
         </div>
     </footer>
 
