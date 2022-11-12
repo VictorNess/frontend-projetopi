@@ -76,6 +76,9 @@
 #botoesItem {
     background-color: #45c4b0;
     border-radius: 10px;
+    border-color: #45c4b0;
+    color: #ffffff;
     width: 150px;
-
+    height: 35px;
+    margin-right: 10px;
 }
